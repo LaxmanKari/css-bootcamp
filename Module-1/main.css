@@ -1,0 +1,102 @@
+body{
+   font-family: sans-serif;
+   margin: 0; 
+}
+h1 {
+   margin: 0;
+}
+
+.main-header {
+   background-color: #2ddf5c;
+   padding: 8px 16px;
+}
+
+.main-header >  div {
+   display: inline-block; 
+}
+
+.main-header__brand {
+   text-decoration: none; 
+   font-weight: bold;
+   font-size: 25px;
+  
+}
+
+.main-nav {
+   display: inline-block; 
+   text-align: right;
+   width: calc(100% - 74px);
+}
+.main-nav__items {
+   margin: 0; 
+  list-style: none; 
+}
+
+.main-nav__item {
+   display: inline-block; 
+   padding: 0px 16px 0px 16px; 
+}
+
+
+.main-nav__item a:hover {
+   color: white;
+   border-bottom: 3px solid white;
+}
+
+.main-nav__item a:active {
+   color: aqua;
+   border-bottom: 3px solid white;
+}
+
+.main-nav__item a {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding: 8px;
+}
+
+
+.main-nav__item-cta a{
+   color: white; 
+   background: #ff1b68;
+   padding: 8x 16px; 
+   border-radius: 8px;
+}  
+
+
+.main-nav__item-cta a:not(.active){
+   color: white;
+}
+
+
+.main-nav__item-cta a:hover,
+.main-nav__item-cta a:active{
+  border-bottom: 0px;
+  background: white;
+  color:#ff1b68
+}  
+
+
+ #product-overview {
+   background: url("freedom.jfif");
+   background-repeat: no-repeat;
+   background-position: center;
+   color: white; 
+   font-family: sans-serif;
+   margin: 0; 
+   height: 350px;
+ }
+
+ .main-nav__items {
+   margin: 0;
+} 
+
+#plans h1{
+   color: #2ddf5c;
+   margin: 10px 0 0 0 ; 
+} 
+
+h2::first-letter {
+   color: red;
+   font-size: 3em;
+}
