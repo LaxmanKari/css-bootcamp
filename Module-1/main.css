@@ -1,102 +1,133 @@
-body{
-   font-family: sans-serif;
-   margin: 0; 
-}
-h1 {
-   margin: 0;
-}
-
-.main-header {
-   background-color: #2ddf5c;
-   padding: 8px 16px;
-}
-
-.main-header >  div {
-   display: inline-block; 
-}
-
-.main-header__brand {
-   text-decoration: none; 
-   font-weight: bold;
-   font-size: 25px;
-  
-}
-
-.main-nav {
-   display: inline-block; 
-   text-align: right;
-   width: calc(100% - 74px);
-}
-.main-nav__items {
-   margin: 0; 
-  list-style: none; 
-}
-
-.main-nav__item {
-   display: inline-block; 
-   padding: 0px 16px 0px 16px; 
-}
-
-
-.main-nav__item a:hover {
-   color: white;
-   border-bottom: 3px solid white;
-}
-
-.main-nav__item a:active {
-   color: aqua;
-   border-bottom: 3px solid white;
-}
-
-.main-nav__item a {
-   text-decoration: none;
-   color: black;
-   font-weight: bold;
-   padding: 8px;
-}
-
-
-.main-nav__item-cta a{
-   color: white; 
-   background: #ff1b68;
-   padding: 8x 16px; 
-   border-radius: 8px;
-}  
-
-
-.main-nav__item-cta a:not(.active){
-   color: white;
-}
-
-
-.main-nav__item-cta a:hover,
-.main-nav__item-cta a:active{
-  border-bottom: 0px;
-  background: white;
-  color:#ff1b68
-}  
-
-
- #product-overview {
+#product-overview {
    background: url("freedom.jfif");
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; 
    background-position: center;
-   color: white; 
+   background-size: cover;
+   color: black; 
    font-family: sans-serif;
    margin: 0; 
-   height: 350px;
+   height: 528px;
+   width: 100%;
+   padding: 10px;
  }
 
  .main-nav__items {
    margin: 0;
 } 
 
-#plans h1{
+.plan__main-div{
+   padding: 10px; 
+   text-align: center;
+}
+
+.plan {
+   background-color: #d5ffdc; 
+   text-align: center;
+   padding: 16px; 
+   margin: 8px; 
+   display: inline-block;
+   width: 30%;
+   vertical-align: middle;
+   text-decoration: none;
+}
+
+.plan--highlighted {
+   background-color: #19b84c;
+   color: white;
+   box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.5);
+}
+
+.plan__annotation {
+   color: #19b84c; 
+   background: white;
+   box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.5);
+   width: auto;
+   padding: 8px;
+   border-radius: 8px;
+}
+
+.recommended_plus{
+   padding-top:15px;
+}
+
+.plan__title {
+   color: #0e4f1f; 
+
+}
+
+.plan__price {
+   color: #858585;
+}
+
+.plan--highlighted .plan__title{
+   color: white; 
+}
+
+.plan--highlighted .plan__price {
+   color: #0e4f1f; 
+}
+
+.plan__features{
+   list-style:none;
+   padding: 5px;
+}
+
+.plan__feature {
+   padding: 4px;
+    
+   text-decoration: none;
+}
+
+.section-title{
    color: #2ddf5c;
-   margin: 10px 0 0 0 ; 
+   margin: 10px 10px 10px 10px ; 
+   text-align: center; 
 } 
 
-h2::first-letter {
-   color: red;
-   font-size: 3em;
+
+#key-features {
+   box-sizing: border-box;
+   background: #ff1b68;
+   margin-top: 80px;  
+   padding: 16px;
 }
+
+
+#key-features > .section-title {
+   color: white; 
+   margin: 32px; 
+}
+
+.key-feature__list {
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+  
+} 
+
+.key-feature {
+   display: inline-block;
+   width: 30%; 
+   text-align: center;
+   vertical-align: top;
+}
+
+.key-feature__image{
+   background: #ffcede; 
+   width: 128px; 
+   border:2px solid #424242; 
+   border-radius: 50%;
+   height: 128px; 
+   margin: auto;
+}
+
+.key-feature__description {
+   text-align: center; 
+   font-weight: bold; 
+   color: white; 
+   font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,145 @@
+/* General cs rules  */
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat',sans-serif;
+   margin: 0px; 
+}
+h1 {
+   margin: 0;
+}
+
+
+/* Main Header and nav */
+
+.main-header {
+   background-color: #2ddf5c;
+   padding: 8px 16px;
+}
+
+.main-header >  div {
+   display: inline-block; 
+}
+
+.main-header__brand {
+   text-decoration: none; 
+   font-weight: bold;
+   font-size: 25px;
+  
+}
+
+.main-nav {
+   display: inline-block; 
+   text-align: right;
+   width: calc(100% - 74px);
+}
+.main-nav__items {
+   margin: 0; 
+  list-style: none; 
+}
+
+.main-nav__item {
+   display: inline-block; 
+   padding: 0px 16px 0px 16px; 
+}
+
+
+.main-nav__item a:hover {
+   color: white;
+   border-bottom: 3px solid white;
+}
+
+.main-nav__item a:active {
+   color: aqua;
+   border-bottom: 3px solid white;
+}
+
+.main-nav__item a {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding: 8px;
+}
+
+
+.main-nav__item-cta a{
+   color: white; 
+   background: #ff1b68;
+   padding: 8x 16px; 
+   border-radius: 8px;
+}  
+
+
+.main-nav__item-cta a:not(.active){
+   color: white;
+}
+
+
+.main-nav__item-cta a:hover,
+.main-nav__item-cta a:active{
+  border-bottom: 0px;
+  background: white;
+  color:#ff1b68
+}  
+
+
+
+
+/* Button  */
+
+.button {
+   background: #0e4f1f; 
+   color: white;
+   padding: 8px; 
+   font: inherit; 
+   border: 1.5px solid #0e4f1f;
+   border-radius: 8px;
+   font-weight: bold; 
+   cursor: pointer;
+}
+
+.button:hover, 
+.button.active {
+   background: white;
+   color:#0e4f1f
+}
+
+.button:focus {
+   outline: none;
+}
+
+
+
+
+/* Footer  */
+
+.main-footer {
+   background: black; 
+   padding: 32px; 
+   margin-top: 48px; 
+}
+
+.main-footer__links {
+   list-style: none; 
+   padding: 0; 
+   margin:0; 
+   text-align: center;
+}
+
+.main-footer__link {
+   display: inline-block; 
+   margin: 0 16px; 
+}
+
+.main-footer__link a {
+   color: white; 
+   text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+   color: #ccc; 
+}
