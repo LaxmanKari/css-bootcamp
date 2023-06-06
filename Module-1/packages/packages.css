@@ -2,6 +2,14 @@
    margin:auto; 
 }
 
+.background {
+   background: url("../images/plans-background.jpg");
+   width: 100%;
+   height: 100%; 
+   position: fixed;
+   z-index: -1; 
+}
+
 main {
    padding-top: 32px;
  
@@ -13,6 +21,8 @@ main {
    margin: 16px 0; 
    width: 80%;
    border-left: none;
+   position: relative;
+   z-index: 0;
 }
 
 .package:hover,
@@ -26,13 +36,23 @@ main {
    padding: 32px;
    color: inherit; 
    display: block; 
-
-  
 }
 .package__title {
    font-weight: bold;
    color: black; 
    padding: 15px;
+}
+
+.package__badge{
+   position: absolute;
+   top: 10px; 
+   left: 500px; 
+   margin:20px; 
+   font-size: 12px;
+   color: white; 
+   background: #ff5454;
+   padding: 8px; 
+   z-index:1; 
 }
 
 .package__subtitle {

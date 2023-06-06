@@ -18,6 +18,11 @@ h1 {
 .main-header {
    background-color: #2ddf5c;
    padding: 8px 16px;
+   position: fixed; 
+   width: 100%; 
+   box-sizing: border-box;
+   z-index: 1;
+   top:0; 
 }
 
 .main-header >  div {
@@ -28,7 +33,16 @@ h1 {
    text-decoration: none; 
    font-weight: bold;
    font-size: 25px;
-  
+   display: inline-block;
+   height: 35px;
+   color:#ff1b68;
+}
+
+.main-header__brand img {
+   height: 100%; 
+   padding-top: 5px;
+   position: absolute; 
+   bottom: 0px;
 }
 
 .main-nav {
@@ -43,7 +57,8 @@ h1 {
 
 .main-nav__item {
    display: inline-block; 
-   padding: 0px 16px 0px 16px; 
+   padding: 0px 16px 10px 16px; 
+  
 }
 
 
@@ -62,6 +77,7 @@ h1 {
    color: black;
    font-weight: bold;
    padding: 8px;
+   border: 15px;
 }
 
 
